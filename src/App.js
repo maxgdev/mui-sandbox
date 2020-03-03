@@ -6,6 +6,8 @@ import AbstractingContainersAndItems from './GridExamples/AbstractingContainersA
 import AbstractingContainersAndItemsAndProps from './GridExamples/AbstractingContainersAndItemsAndProps';
 import FixedColumnLayout from './GridExamples/FixedColumnLayout';
 import FixedColumnLayoutHeaderAndFooter from './GridExamples/FixedColumnLayoutHeaderAndFooter'
+import ColumnDirection from './GridExamples/ColumnDirection'
+
 function App() {
   return (
     <div className="App">
@@ -23,6 +25,8 @@ function App() {
       <FixedColumnLayout width={6} />
       <h3>Fixed Number of Columns Layout with Header and Footer</h3>
       <FixedColumnLayoutHeaderAndFooter width={6} />
+      <h3>Change Column Direction</h3>
+      <ColumnDirection />
     </div>
   );
 }
