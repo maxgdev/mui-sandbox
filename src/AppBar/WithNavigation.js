@@ -44,7 +44,7 @@ const MyToolbar = withStyles(styles)(
           </MenuItem>
         </Fragment>
       ),
-      RightButton: () => <Button color="inherit">Login</Button>
+      RightButton: () => <Button color="secondary" variant="contained">Login</Button>
     };
 
     state = { anchor: null };
