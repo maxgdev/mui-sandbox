@@ -12,7 +12,8 @@ import React from 'react';
 // App Bars Component imports //
 // import FixedPosition from './AppBar/FixedPosition';
 // import AppBarWithButtons from './AppBar/HideOnScroll';
-import GrowOnScroll from './AppBar/GrowOnScroll';
+// import GrowOnScroll from './AppBar/GrowOnScroll';
+import ToolbarAbstraction from './AppBar/ToolbarAbstraction';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
     <div className="App">
 
       {/* App Bar Component Example */}
-      <GrowOnScroll />
+      <ToolbarAbstraction />
 
       {/* Grid Component Examples
       <h3>Set Breakpoints</h3>
