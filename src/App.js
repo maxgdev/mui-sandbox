@@ -1,16 +1,26 @@
 import React from 'react';
-import Breakpoints from './GridExamples/Breakpoints';
-import BreakpointsAuto from './GridExamples/BreakpointsAuto';
-import FillingSpace from './GridExamples/FillingSpace';
-import AbstractingContainersAndItems from './GridExamples/AbstractingContainersAndItems';
-import AbstractingContainersAndItemsAndProps from './GridExamples/AbstractingContainersAndItemsAndProps';
-import FixedColumnLayout from './GridExamples/FixedColumnLayout';
-import FixedColumnLayoutHeaderAndFooter from './GridExamples/FixedColumnLayoutHeaderAndFooter';
-import ColumnDirection from './GridExamples/ColumnDirection';
-import ColumnDirectionAndHidden from './GridExamples/ColumnDirectionAndHidden';
+// Grid Component imports //
+// import Breakpoints from './GridExamples/Breakpoints';
+// import BreakpointsAuto from './GridExamples/BreakpointsAuto';
+// import FillingSpace from './GridExamples/FillingSpace';
+// import AbstractingContainersAndItems from './GridExamples/AbstractingContainersAndItems';
+// import AbstractingContainersAndItemsAndProps from './GridExamples/AbstractingContainersAndItemsAndProps';
+// import FixedColumnLayout from './GridExamples/FixedColumnLayout';
+// import FixedColumnLayoutHeaderAndFooter from './GridExamples/FixedColumnLayoutHeaderAndFooter';
+// import ColumnDirection from './GridExamples/ColumnDirection';
+// import ColumnDirectionAndHidden from './GridExamples/ColumnDirectionAndHidden';
+// App Bars Component imports //
+import FixedPosition from './AppBar/FixedPosition';
+
+
 function App() {
   return (
     <div className="App">
+
+      {/* App Bar Component Example */}
+      <FixedPosition />
+
+      {/* Grid Component Examples
       <h3>Set Breakpoints</h3>
       <Breakpoints />
       <h3>Auto Breakpoints</h3>
@@ -28,7 +38,8 @@ function App() {
       <h3>Change Column Direction</h3>
       <ColumnDirection />
       <h3>Change Column Direction with Hiddedn Column</h3>
-      <ColumnDirectionAndHidden />
+      <ColumnDirectionAndHidden /> */}
+
     </div>
   );
 }
