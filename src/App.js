@@ -13,7 +13,9 @@ import React from 'react';
 // import FixedPosition from './AppBar/FixedPosition';
 // import AppBarWithButtons from './AppBar/HideOnScroll';
 // import GrowOnScroll from './AppBar/GrowOnScroll';
-import ToolbarAbstraction from './AppBar/ToolbarAbstraction';
+// import ToolbarAbstraction from './AppBar/ToolbarAbstraction';
+import WithNavigation from './AppBar/WithNavigation';
+import { BrowserRouter } from 'react-router-dom';
 
 
 function App() {
@@ -21,7 +23,9 @@ function App() {
     <div className="App">
 
       {/* App Bar Component Example */}
-      <ToolbarAbstraction />
+      <BrowserRouter>
+        <WithNavigation />
+      </BrowserRouter>
 
       {/* Grid Component Examples
       <h3>Set Breakpoints</h3>
