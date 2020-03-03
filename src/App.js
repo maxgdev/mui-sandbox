@@ -3,6 +3,9 @@ import Breakpoints from './GridExamples/Breakpoints';
 import BreakpointsAuto from './GridExamples/BreakpointsAuto';
 import FillingSpace from './GridExamples/FillingSpace';
 import AbstractingContainersAndItems from './GridExamples/AbstractingContainersAndItems';
+import AbstractingContainersAndItemsAndProps from './GridExamples/AbstractingContainersAndItemsAndProps';
+import FixedColumnLayout from './GridExamples/FixedColumnLayout';
+import FixedColumnLayoutHeaderAndFooter from './GridExamples/FixedColumnLayoutHeaderAndFooter'
 function App() {
   return (
     <div className="App">
@@ -14,6 +17,12 @@ function App() {
       <FillingSpace />
       <h3>Abstracting Containers and Items</h3>
       <AbstractingContainersAndItems />
+      <h3>Abstracting Containers, Items and Props</h3>
+      <AbstractingContainersAndItemsAndProps />
+      <h3>Fixed Number of Columns Layout</h3>
+      <FixedColumnLayout width={6} />
+      <h3>Fixed Number of Columns Layout with Header and Footer</h3>
+      <FixedColumnLayoutHeaderAndFooter width={6} />
     </div>
   );
 }
