@@ -1,5 +1,13 @@
-## React Material-UI Cookbook Sandbox 
+# React Material-UI Cookbook Sandbox 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Grid Components
+Breakpoints
+- xs >= 0px
+- sm >= 600px
+- md >= 960px
+- lg >= 1280px
+- xl >= 1920px
 
 ## Available Scripts
 
