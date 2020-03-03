@@ -110,7 +110,7 @@ const WithNavigation = withStyles(styles)(({ classes }) => (
       render={() => (
         <Fragment>
           <MyToolbar title="Page 2" />
-          <Typography>Page 2cccccccc</Typography>
+          <Typography><h1>Page 2cccccccc</h1></Typography>
         </Fragment>
       )}
     />
