@@ -36,7 +36,7 @@ const FillingSpace = withStyles(styles)(({ classes, justify }) => (
       </Grid>
       <Grid item xs={12} sm={6} md={3}>
         <Paper className={classes.paper}>
-          <Grid container justify={justify}>
+          <Grid container justify="center">
             <Grid item>
               <Chip label="xs=12" />
             </Grid>
@@ -51,7 +51,7 @@ const FillingSpace = withStyles(styles)(({ classes, justify }) => (
       </Grid>
       <Grid item xs={12} sm={6} md={3}>
         <Paper className={classes.paper}>
-          <Grid container justify={justify}>
+          <Grid container justify="space-around">
             <Grid item>
               <Chip label="xs=12" />
             </Grid>
@@ -66,7 +66,7 @@ const FillingSpace = withStyles(styles)(({ classes, justify }) => (
       </Grid>
       <Grid item xs={12} sm={6} md={3}>
         <Paper className={classes.paper}>
-          <Grid container justify={justify}>
+          <Grid container justify="space-between">
             <Grid item>
               <Chip label="xs=12" />
             </Grid>
