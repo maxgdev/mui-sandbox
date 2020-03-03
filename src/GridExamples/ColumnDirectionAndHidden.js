@@ -17,7 +17,7 @@ const styles = theme => ({
   }
 });
 
-const ColumnDirection = withStyles(styles)(({ classes }) => (
+const ColumnDirectionAndHidden = withStyles(styles)(({ classes }) => (
   <div className={classes.root}>
     <Grid container justify="space-around" spacing={4}>
       <Grid item xs={3}>
@@ -62,7 +62,7 @@ const ColumnDirection = withStyles(styles)(({ classes }) => (
           </Grid>
         </Grid>
       </Grid>
-     
+      <Hidden smDown>
         <Grid item xs={3}>
           <Grid container direction="column" spacing={2}>
             <Grid item>
@@ -77,9 +77,9 @@ const ColumnDirection = withStyles(styles)(({ classes }) => (
             </Grid>
           </Grid>
         </Grid>
-     
+      </Hidden>
     </Grid>
   </div>
 ));
 
-export default ColumnDirection;
+export default ColumnDirectionAndHidden;

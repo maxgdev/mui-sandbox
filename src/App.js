@@ -5,9 +5,9 @@ import FillingSpace from './GridExamples/FillingSpace';
 import AbstractingContainersAndItems from './GridExamples/AbstractingContainersAndItems';
 import AbstractingContainersAndItemsAndProps from './GridExamples/AbstractingContainersAndItemsAndProps';
 import FixedColumnLayout from './GridExamples/FixedColumnLayout';
-import FixedColumnLayoutHeaderAndFooter from './GridExamples/FixedColumnLayoutHeaderAndFooter'
-import ColumnDirection from './GridExamples/ColumnDirection'
-
+import FixedColumnLayoutHeaderAndFooter from './GridExamples/FixedColumnLayoutHeaderAndFooter';
+import ColumnDirection from './GridExamples/ColumnDirection';
+import ColumnDirectionAndHidden from './GridExamples/ColumnDirectionAndHidden';
 function App() {
   return (
     <div className="App">
@@ -27,6 +27,8 @@ function App() {
       <FixedColumnLayoutHeaderAndFooter width={6} />
       <h3>Change Column Direction</h3>
       <ColumnDirection />
+      <h3>Change Column Direction with Hiddedn Column</h3>
+      <ColumnDirectionAndHidden />
     </div>
   );
 }

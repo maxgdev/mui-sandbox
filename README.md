@@ -8,11 +8,17 @@ Breakpoints
 - md >= 960px
 - lg >= 1280px
 - xl >= 1920px
+ 
  Auto Breakpoints
+
  Justifying Items
+ 
  Abstracting Containers, Items and Props
+ 
  Fixed Number of Columns
+ 
  Changing column direction
+ 
 
 ## Available Scripts
 
