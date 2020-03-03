@@ -43,7 +43,7 @@ const FixedPosition = withStyles(styles)(({ classes }) => (
         <Button color="inherit">Login</Button>
       </Toolbar>
     </AppBar>
-    <div className={classes.toolbarMargin} />
+    {/* <div className={classes.toolbarMargin} /> */}
     <ul>
       {new Array(55).fill(null).map((v, i) => (
         <li key={i}>{i}</li>

@@ -10,7 +10,9 @@ import React from 'react';
 // import ColumnDirection from './GridExamples/ColumnDirection';
 // import ColumnDirectionAndHidden from './GridExamples/ColumnDirectionAndHidden';
 // App Bars Component imports //
-import FixedPosition from './AppBar/FixedPosition';
+// import FixedPosition from './AppBar/FixedPosition';
+// import AppBarWithButtons from './AppBar/HideOnScroll';
+import GrowOnScroll from './AppBar/GrowOnScroll';
 
 
 function App() {
@@ -18,7 +20,7 @@ function App() {
     <div className="App">
 
       {/* App Bar Component Example */}
-      <FixedPosition />
+      <GrowOnScroll />
 
       {/* Grid Component Examples
       <h3>Set Breakpoints</h3>
