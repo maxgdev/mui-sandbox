@@ -1,13 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom'
-import DrawerItemNavigation from './Drawer/DrawerItemNavigation';
+import DrawerSections from './Drawer/DrawerSections';
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <DrawerItemNavigation />
-      </Router>
+      <DrawerSections />
     </div>
   );
 }
