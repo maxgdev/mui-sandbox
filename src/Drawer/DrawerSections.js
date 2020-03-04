@@ -61,14 +61,17 @@ const DrawerSections = withStyles(styles)(({ classes }) => {
     ],
     memory: [
       { label: 'Add Memory', Icon: AddIcon },
+      { label: 'Remove Memory', Icon: RemoveIcon },
       { label: 'Usage', Icon: ShowChartIcon }
     ],
     storage: [
       { label: 'Add Storage', Icon: AddIcon },
+      { label: 'Remove Storage', Icon: RemoveIcon },
       { label: 'Usage', Icon: ShowChartIcon }
     ],
     network: [
       { label: 'Add Network', Icon: AddIcon, disabled: true },
+      { label: 'Remove Network', Icon: RemoveIcon },
       { label: 'Usage', Icon: ShowChartIcon }
     ]
   });
