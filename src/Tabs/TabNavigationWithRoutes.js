@@ -38,7 +38,8 @@ function TabNavigationWithRoutes({ classes }) {
         path="/"
         render={() => (
           <Typography component="div" className={classes.tabContent}>
-            Item One
+            <p>Item One</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae libero diam</p>
           </Typography>
         )}
       />
@@ -47,7 +48,8 @@ function TabNavigationWithRoutes({ classes }) {
         path="/page2"
         render={() => (
           <Typography component="div" className={classes.tabContent}>
-            Item Two
+            <p>Item Two</p>
+            <p>Donec tellus diam, viverra id mi at, vulputate lobortis nisi. Etiam commodo, odio sit amet imperdiet hendrerit, erat leo consequat lorem, sit amet imperdiet ex tortor in ante</p>
           </Typography>
         )}
       />
@@ -56,7 +58,8 @@ function TabNavigationWithRoutes({ classes }) {
         path="/page3"
         render={() => (
           <Typography component="div" className={classes.tabContent}>
-            Item Three
+            <p>Item Three</p>
+            <p>In sit amet fringilla nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam accumsan blandit eros et porttitor. Cras vitae tincidunt urna, eget malesuada orci. Integer ornare ac nisl vel faucibus.</p>
           </Typography>
         )}
       />
