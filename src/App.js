@@ -1,9 +1,14 @@
 import React from 'react';
-import AbstractingTabContent from './Tabs/AbstractingTabContent';
+import { BrowserRouter } from 'react-router-dom';
+import TabNavigationWithRoutes from './Tabs/TabNavigationWithRoutes';
+
+
 function App() {
   return (
     <div className="App">
-      <AbstractingTabContent />
+      <BrowserRouter>
+        <TabNavigationWithRoutes />
+      </BrowserRouter>
     </div>
   );
 }
