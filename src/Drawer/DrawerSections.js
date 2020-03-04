@@ -76,7 +76,7 @@ const DrawerSections = withStyles(styles)(({ classes }) => {
     ]
   });
   const [sections, setSections] = useState({
-    cpu: true,
+    cpu: false,
     memory: false,
     storage: false,
     network: false

@@ -1,10 +1,10 @@
 import React from 'react';
-import DrawerSections from './Drawer/DrawerSections';
+import AppBarInteraction from './Drawer/AppBarInteraction';
 
 function App() {
   return (
     <div className="App">
-      <DrawerSections />
+      <AppBarInteraction />
     </div>
   );
 }
