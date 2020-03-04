@@ -1,10 +1,10 @@
 import React from 'react';
-import DrawerTypes from './Drawer/DrawerTypes';
+import DrawerItemState from './Drawer/DrawerItemState';
 
 function App() {
   return (
     <div className="App">
-      <DrawerTypes />
+      <DrawerItemState />
     </div>
   );
 }
