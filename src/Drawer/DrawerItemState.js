@@ -37,7 +37,9 @@ export default function DrawerItemState() {
     { label: 'Page 2', Icon: WebIcon },
     { label: 'Page 3', Icon: WebIcon, disabled: true },
     { label: 'Page 4', Icon: WebIcon },
-    { label: 'Page 5', Icon: WebIcon, hidden: true }
+    { label: 'Page 5', Icon: WebIcon, hidden: true },
+    { label: 'Page 6', Icon: WebIcon },
+    { label: 'Page 7', Icon: WebIcon, disabled: true },
   ]);
 
   const onClick = content => () => {
