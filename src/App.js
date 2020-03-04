@@ -1,10 +1,9 @@
 import React from 'react';
-import TabAlignment from './Tabs/TabAlignment';
-
+import RenderingTabsBasedOnState from './Tabs/RenderingTabsBasedOnState';
 function App() {
   return (
     <div className="App">
-      <TabAlignment />
+      <RenderingTabsBasedOnState />
     </div>
   );
 }
