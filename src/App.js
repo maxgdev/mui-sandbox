@@ -1,9 +1,9 @@
 import React from 'react';
-import RenderingTabsBasedOnState from './Tabs/RenderingTabsBasedOnState';
+import AbstractingTabContent from './Tabs/AbstractingTabContent';
 function App() {
   return (
     <div className="App">
-      <RenderingTabsBasedOnState />
+      <AbstractingTabContent />
     </div>
   );
 }
