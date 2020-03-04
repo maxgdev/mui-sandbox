@@ -1,7 +1,7 @@
 # React Material-UI Cookbook Sandbox 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Grid Components
+## Grid Components [1]
 Breakpoints
 - xs >= 0px
 - sm >= 600px
@@ -19,7 +19,7 @@ Breakpoints
  
  Changing column direction
  
-## AppBar Component
+## AppBar Component [2]
 
 Fixed Position
 
@@ -32,12 +32,33 @@ Toolbar Abstractions
 Toolbar with React Router Navigation
 - install 'react-router-dom'
 
-## Drawer Component
+## Drawer Component [3]
 Types
 
 Item State
 
 Item Navigation
+
+## Tab Component [4]
+AppBar integration
+
+Tab Alignment
+
+Tabs and State
+
+Tab Abstraction
+
+Tab navigation with react router
+
+## Expansion Panels [5]
+Stateful panels
+
+Formatting headers
+
+Scrollable content
+
+Lazy loading content
+
 
 ## Running React Material-UI project
 
