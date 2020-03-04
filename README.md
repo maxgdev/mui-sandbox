@@ -61,6 +61,21 @@ Scrollable content
 
 Lazy loading content
 
+## Lists [6]
+
+Render Lists with State
+
+List icons
+
+List Avatars
+
+List Selections
+
+Nested lists
+
+List controls
+
+Scrolling lists
 
 ## Running React Material-UI project
 
