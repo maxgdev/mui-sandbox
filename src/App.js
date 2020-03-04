@@ -1,10 +1,10 @@
 import React from 'react';
-import AppBarInteraction from './Drawer/AppBarInteraction';
+import AppBarIntegration from './Tabs/AppBarIntegration';
 
 function App() {
   return (
     <div className="App">
-      <AppBarInteraction />
+      <AppBarIntegration />
     </div>
   );
 }
