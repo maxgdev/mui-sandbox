@@ -22,6 +22,7 @@ function TabNavigationWithRoutes({ classes }) {
 
   const onChange = (e, value) => {
     setValue(value);
+    console.log("tab value: ", value);
   };
 
   return (
