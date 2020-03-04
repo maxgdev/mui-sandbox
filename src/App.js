@@ -1,10 +1,10 @@
 import React from 'react';
-import AppBarIntegration from './Tabs/AppBarIntegration';
+import TabAlignment from './Tabs/TabAlignment';
 
 function App() {
   return (
     <div className="App">
-      <AppBarIntegration />
+      <TabAlignment />
     </div>
   );
 }

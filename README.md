@@ -43,6 +43,8 @@ Item Navigation
 AppBar integration
 
 Tab Alignment
+-install recompose module
+-https://www.npmjs.com/package/recompose
 
 Tabs and State
 
