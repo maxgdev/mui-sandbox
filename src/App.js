@@ -1,11 +1,11 @@
 import React from 'react';
-import StatefulExpansionPanels from './ExpansionPanel/StatefulExpansionPanels';
+import FormattingPanelHeaders from './ExpansionPanel/FormattingPanelHeaders';
 
 
 function App() {
   return (
     <div className="App">
-      <StatefulExpansionPanels />
+      <FormattingPanelHeaders />
     </div>
   );
 }
