@@ -1,10 +1,10 @@
 import React from 'react';
-import CustomTypography from './Themes/CustomTypography'
+import NestingThemes from './Themes/NestingThemes'
 
 function App() {
   return (
     <div className="App">
-      <CustomTypography />
+      <NestingThemes />
     </div>
   );
 }
