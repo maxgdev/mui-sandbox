@@ -1,10 +1,10 @@
 import React from 'react';
-import NestingThemes from './Themes/NestingThemes'
+import ComponentThemeSettings from './Themes/ComponentThemeSettings'
 
 function App() {
   return (
     <div className="App">
-      <NestingThemes />
+      <ComponentThemeSettings />
     </div>
   );
 }
