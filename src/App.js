@@ -1,10 +1,11 @@
 import React from 'react';
+import StatefulExpansionPanels from './ExpansionPanel/StatefulExpansionPanels';
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Empty React App</h1>
+      <StatefulExpansionPanels />
     </div>
   );
 }
