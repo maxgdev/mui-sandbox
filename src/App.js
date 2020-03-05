@@ -1,10 +1,10 @@
 import React from 'react';
-import UnderstandingThePalette from './Themes/UnderstandingThePalette';
+import LightVersusDarkThemes from './Themes/LightVersusDarkThemes'
 
 function App() {
   return (
     <div className="App">
-      <UnderstandingThePalette primaryHue="purple" secondaryHue="purple" errorHue="red"/>
+      <LightVersusDarkThemes />
     </div>
   );
 }
