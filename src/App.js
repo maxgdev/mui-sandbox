@@ -4,7 +4,7 @@ import UnderstandingThePalette from './Themes/UnderstandingThePalette';
 function App() {
   return (
     <div className="App">
-      <UnderstandingThePalette />
+      <UnderstandingThePalette primaryHue="purple" secondaryHue="purple" errorHue="red"/>
     </div>
   );
 }

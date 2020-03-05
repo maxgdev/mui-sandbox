@@ -64,13 +64,22 @@ const UnderstandingThePallette = withStyles(styles)(
     errorShade,
     classes
   }) => {
+    // const theme = createMuiTheme({
+    //   palette: {     
+    //     primary: { main: hues[primaryHue][primaryShade] },      
+    //     secondary: { main: hues[secondaryHue][secondaryShade] },
+    //     error: { main: hues[errorHue][errorShade] }
+    //   }
+    // });
     const theme = createMuiTheme({
-      palette: {
-        primary: { main: hues[primaryHue][primaryShade] },
-        secondary: { main: hues[secondaryHue][secondaryShade] },
-        error: { main: hues[errorHue][errorShade] }
-      }
-    });
+        palette: {
+          primary: purple,
+          secondary: {
+            main: '#f44336',
+          },
+          error: red
+        },
+      });
 
     return (
       <MuiThemeProvider theme={theme}>
