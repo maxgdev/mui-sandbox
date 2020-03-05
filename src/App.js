@@ -1,10 +1,10 @@
 import React from 'react';
-import MovingStylesToThemes from './Styles/MovingStylesToThemes'
+import OtherStylingOptions from './Styles/OtherStylingOptions'
 
 function App() {
   return (
     <div className="App">
-      <MovingStylesToThemes />
+      <OtherStylingOptions />
     </div>
   );
 }
