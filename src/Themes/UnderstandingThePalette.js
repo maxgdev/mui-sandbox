@@ -73,10 +73,8 @@ const UnderstandingThePallette = withStyles(styles)(
     // });
     const theme = createMuiTheme({
         palette: {
-          primary: purple,
-          secondary: {
-            main: '#f44336',
-          },
+          primary: lightBlue,
+          secondary: lime,
           error: red
         },
       });
