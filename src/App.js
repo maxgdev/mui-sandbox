@@ -1,11 +1,10 @@
 import React from 'react';
-import FormattingPanelHeaders from './ExpansionPanel/FormattingPanelHeaders';
-
+import ScrollablePanelContent from './ExpansionPanel/ScrollablePanelContent';
 
 function App() {
   return (
     <div className="App">
-      <FormattingPanelHeaders />
+      <ScrollablePanelContent />
     </div>
   );
 }
