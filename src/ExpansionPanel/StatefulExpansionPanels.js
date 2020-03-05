@@ -58,6 +58,14 @@ export default function StatefulExpansionPanels() {
             </ExpansionPanelDetails>
           </ExpansionPanel>
         ))}
+          <ExpansionPanel>
+            <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+              <Typography>Static Panel</Typography>
+            </ExpansionPanelSummary>
+            <ExpansionPanelDetails>
+              <Typography>This is a static hard coded panel</Typography>
+            </ExpansionPanelDetails>
+          </ExpansionPanel>
     </Fragment>
   );
 }
