@@ -1,10 +1,10 @@
 import React from 'react';
-import NestedLists from './Lists/NestedLists';
+import ListControls from './Lists/ListControls';
 
 function App() {
   return (
     <div className="App">
-      <NestedLists />
+      <ListControls />
     </div>
   );
 }
