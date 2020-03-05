@@ -1,10 +1,10 @@
 import React from 'react';
-import ScrollablePanelContent from './ExpansionPanel/ScrollablePanelContent';
+import LazyLoadingPanelContent from './ExpansionPanel/LazyLoadingPanelContent';
 
 function App() {
   return (
     <div className="App">
-      <ScrollablePanelContent />
+      <LazyLoadingPanelContent />
     </div>
   );
 }
