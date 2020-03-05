@@ -1,10 +1,10 @@
 import React from 'react';
-import ListControls from './Lists/ListControls';
+import ScrollingLists from './Lists/ScrollingLists';
 
 function App() {
   return (
     <div className="App">
-      <ListControls />
+      <ScrollingLists />
     </div>
   );
 }
