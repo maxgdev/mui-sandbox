@@ -1,10 +1,10 @@
 import React from 'react';
-import BasicComponentStyles from './Styles/BasicComponentStyles'
+import ScopedComponentStyles from './Styles/ScopedComponentStyles'
 
 function App() {
   return (
     <div className="App">
-      <BasicComponentStyles />
+      <ScopedComponentStyles />
     </div>
   );
 }
