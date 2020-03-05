@@ -1,46 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
+import BasicComponentStyles from './Styles/BasicComponentStyles'
 
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
-
-const useStyles = makeStyles(theme => ({
-  card: {
-    width: 275,
-    height: 155,
-    textAlign: 'center'
-  },
-  cardActions: {
-    justifyContent: 'center'
-  }
-}));
-
-export default function BasicComponentStyles() {
-  const classes = useStyles();
-  const [count, setCount] = useState(0);
-
-  const onIncrement = () => {
-    setCount(count + 1);
-  };
-  const onDecrement = () => {
-    setCount(count -1);
-  }
+function App() {
   return (
-    <Card className={classes.card}>
-      <CardContent>
-        <Typography variant="h2">{count}</Typography>
-      </CardContent>
-      <CardActions className={classes.cardActions}>
-        <Button size="small" onClick={onIncrement}>
-          Increment
-        </Button>
-        <Button size="small" onClick={onDecrement}>
-          Decrement
-        </Button>
-      </CardActions>
-    </Card>
+    <div className="App">
+      <BasicComponentStyles />
+    </div>
   );
 }
+
+export default App;
