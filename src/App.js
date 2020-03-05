@@ -1,10 +1,10 @@
 import React from 'react';
-import ExtendingComponentStyles from './Styles/ExtendingComponentStyles'
+import MovingStylesToThemes from './Styles/MovingStylesToThemes'
 
 function App() {
   return (
     <div className="App">
-      <ExtendingComponentStyles />
+      <MovingStylesToThemes />
     </div>
   );
 }
