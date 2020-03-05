@@ -1,10 +1,10 @@
 import React from 'react';
-import ListIcons from './Lists/ListIcons';
+import ListAvatarsAndText from './Lists/ListAvatarsAndText';
 
 function App() {
   return (
     <div className="App">
-      <ListIcons />
+      <ListAvatarsAndText />
     </div>
   );
 }
