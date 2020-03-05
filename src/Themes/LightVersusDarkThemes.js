@@ -22,7 +22,7 @@ const styles = theme => ({
 
 const light = createMuiTheme({
   palette: {
-    type: 'light',
+    type: 'dark',
     primary: blue,
     secondary: pink,
     error: { main: red[600] }
@@ -31,7 +31,7 @@ const light = createMuiTheme({
 
 const dark = createMuiTheme({
   palette: {
-    type: 'dark',
+    type: 'light',
     primary: blue,
     secondary: pink,
     error: { main: red[600] }
@@ -52,7 +52,7 @@ const LightVersusDarkThemes = withStyles(styles)(
             </DialogContentText>
           </DialogContent>
           <DialogActions>
-            <Button color="secondary">Disagree</Button>
+            <Button  variant="contained" color="secondary">Disagree</Button>
             <Button variant="contained" color="primary" autoFocus>
               Agree
             </Button>
