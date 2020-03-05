@@ -1,10 +1,10 @@
 import React from 'react';
-import ListAvatarsAndText from './Lists/ListAvatarsAndText';
+import ListSections from './Lists/ListSections';
 
 function App() {
   return (
     <div className="App">
-      <ListAvatarsAndText />
+      <ListSections />
     </div>
   );
 }
