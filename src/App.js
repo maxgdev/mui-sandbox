@@ -1,10 +1,10 @@
 import React from 'react';
-import ListSections from './Lists/ListSections';
+import NestedLists from './Lists/NestedLists';
 
 function App() {
   return (
     <div className="App">
-      <ListSections />
+      <NestedLists />
     </div>
   );
 }
