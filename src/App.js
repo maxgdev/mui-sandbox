@@ -25,7 +25,9 @@ export default function BasicComponentStyles() {
   const onIncrement = () => {
     setCount(count + 1);
   };
-
+  const onDecrement = () => {
+    setCount(count -1);
+  }
   return (
     <Card className={classes.card}>
       <CardContent>
@@ -34,6 +36,9 @@ export default function BasicComponentStyles() {
       <CardActions className={classes.cardActions}>
         <Button size="small" onClick={onIncrement}>
           Increment
+        </Button>
+        <Button size="small" onClick={onDecrement}>
+          Decrement
         </Button>
       </CardActions>
     </Card>
