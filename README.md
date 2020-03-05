@@ -77,6 +77,28 @@ List controls
 
 Scrolling lists
 
+## Themes [19]
+Palette
+
+Light and Dark themes
+
+Customizing typography
+
+Nesting themes
+
+Component theme setting
+
+## Styles [20]
+Basic component Styles
+
+Scoped component styles
+
+Extending component styles
+
+Moving styles to themes
+
+Other styling options
+
 ## Running React Material-UI project
 
 ### `npm start`
