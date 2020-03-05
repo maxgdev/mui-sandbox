@@ -1,10 +1,10 @@
 import React from 'react';
-import ScrollingLists from './Lists/ScrollingLists';
+import UnderstandingThePalette from './Themes/UnderstandingThePalette';
 
 function App() {
   return (
     <div className="App">
-      <ScrollingLists />
+      <UnderstandingThePalette />
     </div>
   );
 }
