@@ -1,10 +1,10 @@
 import React from 'react';
-import ScopedComponentStyles from './Styles/ScopedComponentStyles'
+import ExtendingComponentStyles from './Styles/ExtendingComponentStyles'
 
 function App() {
   return (
     <div className="App">
-      <ScopedComponentStyles />
+      <ExtendingComponentStyles />
     </div>
   );
 }
