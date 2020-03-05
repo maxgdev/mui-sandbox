@@ -1,10 +1,10 @@
 import React from 'react';
-import ComponentThemeSettings from './Themes/ComponentThemeSettings'
+import BasicComponentStyles from './Styles/BasicComponentStyles'
 
 function App() {
   return (
     <div className="App">
-      <ComponentThemeSettings />
+      <BasicComponentStyles />
     </div>
   );
 }
