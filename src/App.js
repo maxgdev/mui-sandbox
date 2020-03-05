@@ -1,10 +1,10 @@
 import React from 'react';
-import LightVersusDarkThemes from './Themes/LightVersusDarkThemes'
+import CustomTypography from './Themes/CustomTypography'
 
 function App() {
   return (
     <div className="App">
-      <LightVersusDarkThemes />
+      <CustomTypography />
     </div>
   );
 }
