@@ -13,17 +13,21 @@ import Button from '@material-ui/core/Button';
 
 const styles = theme => ({
   root: {
-    margin: theme.spacing(2)
+    margin: theme.spacing(2),
   },
   contained: {
     extend: 'root',
     paddingTop: theme.spacing(2),
-    paddingBottom: theme.spacing(2)
+    paddingBottom: theme.spacing(2),
+    margin: theme.spacing(2),
   },
   containedPrimary: {
     extend: 'contained',
-    paddingLeft: theme.spacing(4),
-    paddingRight: theme.spacing(4)
+    margin: theme.spacing(2),
+    paddingLeft: theme.spacing(2),
+    paddingRight: theme.spacing(2),
+    paddingTop: theme.spacing(2),
+    paddingBottom: theme.spacing(2)
   }
 });
 
