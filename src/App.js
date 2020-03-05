@@ -1,10 +1,10 @@
 import React from 'react';
-import UsingStateToRenderListItems from './Lists/UsingStateToRenderListItems';
+import ListIcons from './Lists/ListIcons';
 
 function App() {
   return (
     <div className="App">
-      <UsingStateToRenderListItems />
+      <ListIcons />
     </div>
   );
 }
