@@ -1,10 +1,10 @@
 import React from 'react';
-import LazyLoadingPanelContent from './ExpansionPanel/LazyLoadingPanelContent';
+import UsingStateToRenderListItems from './Lists/UsingStateToRenderListItems';
 
 function App() {
   return (
     <div className="App">
-      <LazyLoadingPanelContent />
+      <UsingStateToRenderListItems />
     </div>
   );
 }
