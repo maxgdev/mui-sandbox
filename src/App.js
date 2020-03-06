@@ -1,10 +1,10 @@
 import React from 'react';
-import MainContent from './Cards/MainContent'
+import CardHeader from './Cards/CardHeader'
 
 function App() {
   return (
     <div className="App">
-      <MainContent />
+      <CardHeader />
     </div>
   );
 }
