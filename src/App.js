@@ -1,10 +1,10 @@
 import React from 'react';
-import StatefulTables from './Tables/StatefulTables';
+import SortableColumns from './Tables/SortableColumns'
 
 function App() {
   return (
     <div className="App">
-      <StatefulTables />
+      <SortableColumns />
     </div>
   );
 }
