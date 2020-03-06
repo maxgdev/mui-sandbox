@@ -1,10 +1,10 @@
 import React from 'react';
-import OtherStylingOptions from './Styles/OtherStylingOptions'
+import StatefulTables from './Tables/StatefulTables';
 
 function App() {
   return (
     <div className="App">
-      <OtherStylingOptions />
+      <StatefulTables />
     </div>
   );
 }
