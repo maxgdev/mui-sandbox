@@ -17,7 +17,7 @@ const styles = theme => ({
     maxWidth: 400
   },
   actions: {
-    justifyContent: 'center'
+    justifyContent: 'flex-end'
   }
 });
 
