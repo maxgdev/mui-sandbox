@@ -1,10 +1,10 @@
 import React from 'react';
-import PresentingMedia from './Cards/PresentingMedia'
+import ExpandableCards from './Cards/ExpandableCards';
 
 function App() {
   return (
     <div className="App">
-      <PresentingMedia />
+      <ExpandableCards />
     </div>
   );
 }
