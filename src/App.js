@@ -1,10 +1,10 @@
 import React from 'react';
-import RowActions from './Tables/RowActions'
+import MainContent from './Cards/MainContent'
 
 function App() {
   return (
     <div className="App">
-      <RowActions />
+      <MainContent />
     </div>
   );
 }
