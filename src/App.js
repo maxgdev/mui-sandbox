@@ -1,10 +1,10 @@
 import React from 'react';
-import CardHeader from './Cards/CardHeader'
+import PerformingActions from './Cards/PerformingActions'
 
 function App() {
   return (
     <div className="App">
-      <CardHeader />
+      <PerformingActions />
     </div>
   );
 }
