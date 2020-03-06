@@ -1,10 +1,10 @@
 import React from 'react';
-import SelectingRows from './Tables/SelectingRows'
+import RowActions from './Tables/RowActions'
 
 function App() {
   return (
     <div className="App">
-      <SelectingRows />
+      <RowActions />
     </div>
   );
 }
