@@ -1,10 +1,10 @@
 import React from 'react';
-import FilteringRows from './Tables/FilteringRows'
+import SelectingRows from './Tables/SelectingRows'
 
 function App() {
   return (
     <div className="App">
-      <FilteringRows />
+      <SelectingRows />
     </div>
   );
 }

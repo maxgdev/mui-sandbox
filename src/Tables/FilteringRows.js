@@ -62,7 +62,7 @@ const fetchData = () =>
       }
     ];
 
-    setTimeout(() => resolve(items), 1000);
+    setTimeout(() => resolve(items), 5000);
   });
 
 const styles = theme => ({
