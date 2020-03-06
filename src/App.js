@@ -1,10 +1,10 @@
 import React from 'react';
-import SortableColumns from './Tables/SortableColumns'
+import FilteringRows from './Tables/FilteringRows'
 
 function App() {
   return (
     <div className="App">
-      <SortableColumns />
+      <FilteringRows />
     </div>
   );
 }
