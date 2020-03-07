@@ -1,10 +1,10 @@
 import React from 'react';
-import ExpandableCards from './Cards/ExpandableCards';
+import SnackbarContent from './Snackbars/SnackbarContent';
 
 function App() {
   return (
     <div className="App">
-      <ExpandableCards />
+        <SnackbarContent />
     </div>
   );
 }
