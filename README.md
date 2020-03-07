@@ -77,6 +77,28 @@ List controls
 
 Scrolling lists
 
+## Tables [7]
+Stateful tables
+
+Sortable columns
+
+Filtering rows
+
+Selecting rows
+
+Row actions
+
+## Cards [8]
+Main content
+
+Card header
+
+Performing actions
+
+Presenting media
+
+Expandable media
+
 ## Themes [19]
 Palette
 
