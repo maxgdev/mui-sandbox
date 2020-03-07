@@ -99,6 +99,21 @@ Presenting media
 
 Expandable media
 
+## Snackbars [9]
+Snackbar content
+
+Controlling snackbar visibility
+
+Snackbar transitions
+
+Positioning snackbars
+
+Error boundaries and error snackbars
+
+Snackbars with actions
+
+Queuing snackbars ??
+
 ## Themes [19]
 Palette
 
