@@ -1,9 +1,9 @@
 import React from 'react';
-import ControllingVisibilityWithState from './Snackbars/ControllingVisibilityWithState';
+import SnackbarTransitions from './Snackbars/SnackbarTransitions'
 function App() {
   return (
     <div className="App">
-       <ControllingVisibilityWithState />
+       <SnackbarTransitions />
     </div>
   );
 }
