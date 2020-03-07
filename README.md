@@ -114,6 +114,19 @@ Snackbars with actions
 
 Queuing snackbars ??
 
+## Buttons [10]
+Button variants
+
+Button emphasis
+
+Link Buttons
+
+Floating actions
+
+Icon buttons
+
+Button sizes
+
 ## Themes [19]
 Palette
 
