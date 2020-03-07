@@ -1,10 +1,13 @@
 import React from 'react';
-import ErrorBoundariesAndErrorSnackbars from './Snackbars/ErrorBoundariesAndErrorSnackbars'
+import SnackbarsWithActions from './Snackbars/SnackbarsWithActions'
+import { BrowserRouter as Router, BrowserRouter } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-       <ErrorBoundariesAndErrorSnackbars />
+       <BrowserRouter>
+        <SnackbarsWithActions />
+       </BrowserRouter>
     </div>
   );
 }
