@@ -1,9 +1,10 @@
 import React from 'react';
-import PositioningSnackbars from './Snackbars/PositioningSnackbars'
+import ErrorBoundariesAndErrorSnackbars from './Snackbars/ErrorBoundariesAndErrorSnackbars'
+
 function App() {
   return (
     <div className="App">
-       <PositioningSnackbars />
+       <ErrorBoundariesAndErrorSnackbars />
     </div>
   );
 }
