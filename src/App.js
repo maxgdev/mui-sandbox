@@ -1,13 +1,10 @@
 import React from 'react';
-import SnackbarsWithActions from './Snackbars/SnackbarsWithActions'
-import { BrowserRouter as Router, BrowserRouter } from 'react-router-dom'
+import QueuingSnackbars from './Snackbars/QueuingSnackbars'
 
 function App() {
   return (
     <div className="App">
-       <BrowserRouter>
-        <SnackbarsWithActions />
-       </BrowserRouter>
+      <QueuingSnackbars />
     </div>
   );
 }
