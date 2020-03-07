@@ -1,9 +1,9 @@
 import React from 'react';
-import SnackbarTransitions from './Snackbars/SnackbarTransitions'
+import PositioningSnackbars from './Snackbars/PositioningSnackbars'
 function App() {
   return (
     <div className="App">
-       <SnackbarTransitions />
+       <PositioningSnackbars />
     </div>
   );
 }
