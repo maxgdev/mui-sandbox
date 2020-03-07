@@ -50,6 +50,7 @@ const MyButton = ({ label, throwError }) => {
 };
 
 export default () => (
+  
   <Fragment>
     <ErrorBoundary>
       <MyButton label="First Button" />
