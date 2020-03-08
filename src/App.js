@@ -1,10 +1,10 @@
 import React from 'react';
-import FloatingActions from './Buttons/FloatingActions'
+import IconButtons from './Buttons/IconButtons';
 
 function App() {
   return (
     <div className="App">
-      <FloatingActions />
+      <IconButtons />
     </div>
   );
 }
