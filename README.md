@@ -127,6 +127,22 @@ Icon buttons
 
 Button sizes
 
+## Text [11]
+Controlling input with state
+
+Placeholder and helper text
+
+Validation and error display
+
+Password fields
+
+Multiline input
+
+Input adornments
+
+Input Masking ?? (review)
+
+
 ## Themes [19]
 Palette
 
