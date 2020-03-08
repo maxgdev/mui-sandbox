@@ -1,13 +1,10 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom'
-import LinkButtons from './Buttons/LinkButtons'
+import FloatingActions from './Buttons/FloatingActions'
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-          <LinkButtons />
-      </BrowserRouter>
+      <FloatingActions />
     </div>
   );
 }
