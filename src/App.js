@@ -1,20 +1,18 @@
 import React from 'react';
-import IconColorAndState from './Icons/IconColorAndState'
+import ScalingIcons from './Icons/ScalingIcons'
 
 function App() {
   return (
     <div className="App">
-      <IconColorAndState />
+      < ScalingIcons fontSize='inherit'/>
       <br />
-      <IconColorAndState color='primary'/>
+      < ScalingIcons fontSize='default'/>
       <br />
-      <IconColorAndState color='secondary'/>
+      < ScalingIcons />
       <br />
-      <IconColorAndState color='error'/>
+      < ScalingIcons fontSize='small'/>
       <br />
-      <IconColorAndState color='action'/>
-      <br />
-      <IconColorAndState color='disabled'/>
+      < ScalingIcons fontSize='large'/>
     </div>
   );
 }
