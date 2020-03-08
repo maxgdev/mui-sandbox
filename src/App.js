@@ -1,10 +1,18 @@
 import React from 'react';
-import DynamicallyLoadingIcons from './Icons/DynamicallyLoadingIcons'
+import ThemedIcons from './Icons/ThemedIcons'
 
 function App() {
   return (
     <div className="App">
-      < DynamicallyLoadingIcons />
+      < ThemedIcons theme='Filled'/>
+      <br />
+      < ThemedIcons theme='Outlined'/>
+      <br />
+      < ThemedIcons theme='Rounded'/>
+      <br />
+      < ThemedIcons theme='TwoTone'/>
+      <br />
+      < ThemedIcons theme='Sharp'/>
     </div>
   );
 }
