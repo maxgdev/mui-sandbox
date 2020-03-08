@@ -1,18 +1,10 @@
 import React from 'react';
-import ScalingIcons from './Icons/ScalingIcons'
+import DynamicallyLoadingIcons from './Icons/DynamicallyLoadingIcons'
 
 function App() {
   return (
     <div className="App">
-      < ScalingIcons fontSize='inherit'/>
-      <br />
-      < ScalingIcons fontSize='default'/>
-      <br />
-      < ScalingIcons />
-      <br />
-      < ScalingIcons fontSize='small'/>
-      <br />
-      < ScalingIcons fontSize='large'/>
+      < DynamicallyLoadingIcons />
     </div>
   );
 }
