@@ -1,10 +1,10 @@
 import React from 'react';
-import PlaceholderAndHelperText from './Text/PlaceholderAndHelperText'
+import ValidationAndErrorDisplay from './Text/ValidationAndErrorDisplay'
 
 function App() {
   return (
     <div className="App">
-      <PlaceholderAndHelperText />
+      <ValidationAndErrorDisplay />
     </div>
   );
 }
