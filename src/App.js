@@ -1,10 +1,12 @@
 import React from 'react';
-import IconButtons from './Buttons/IconButtons';
+import ButtonSizes from './Buttons/ButtonSizes'
 
 function App() {
   return (
     <div className="App">
-      <IconButtons iconColor='secondary'/>
+      <ButtonSizes size='small' color='primary'/>
+      <ButtonSizes size='medium' color='default' />
+      <ButtonSizes size='large' color='secondary' />
     </div>
   );
 }
