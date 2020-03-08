@@ -1,10 +1,13 @@
 import React from 'react';
-import ButtonEmphasis from './Buttons/ButtonEmphasis'
+import { BrowserRouter } from 'react-router-dom'
+import LinkButtons from './Buttons/LinkButtons'
 
 function App() {
   return (
     <div className="App">
-      <ButtonEmphasis />
+      <BrowserRouter>
+          <LinkButtons />
+      </BrowserRouter>
     </div>
   );
 }
