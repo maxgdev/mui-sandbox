@@ -1,10 +1,10 @@
 import React from 'react';
-import ValidationAndErrorDisplay from './Text/ValidationAndErrorDisplay'
+import PasswordFields from './Text/PasswordFields'
 
 function App() {
   return (
     <div className="App">
-      <ValidationAndErrorDisplay />
+      < PasswordFields />
     </div>
   );
 }
