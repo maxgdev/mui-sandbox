@@ -1,12 +1,10 @@
 import React from 'react';
-import ButtonSizes from './Buttons/ButtonSizes'
+import ControllingInputWithState from './Text/ControllingInputWithState'
 
 function App() {
   return (
     <div className="App">
-      <ButtonSizes size='small' color='primary'/>
-      <ButtonSizes size='medium' color='default' />
-      <ButtonSizes size='large' color='secondary' />
+      <ControllingInputWithState />
     </div>
   );
 }
