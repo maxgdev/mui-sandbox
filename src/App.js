@@ -1,10 +1,10 @@
 import React from 'react';
-import MultilineInput from './Text/MultilineInput'
+import InputAdornments from './Text/InputAdornments'
 
 function App() {
   return (
     <div className="App">
-      < MultilineInput />
+      < InputAdornments />
     </div>
   );
 }
