@@ -1,10 +1,10 @@
 import React from 'react';
-import ButtonVariants from './Buttons/ButtonVariants'
+import ButtonEmphasis from './Buttons/ButtonEmphasis'
 
 function App() {
   return (
     <div className="App">
-      <ButtonVariants />
+      <ButtonEmphasis />
     </div>
   );
 }
