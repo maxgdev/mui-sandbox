@@ -13,8 +13,10 @@
     "react-jss": "^10.0.4",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
+    "react-text-mask": "^5.4.3",
     "react-virtualized": "^9.21.2",
     "recompose": "^0.30.0",
+    "text-mask-addons": "^3.8.0",
     "typeface-exo": "0.0.61",
     "typeface-ubuntu": "0.0.65"
   },

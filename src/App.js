@@ -1,10 +1,10 @@
 import React from 'react';
-import InputAdornments from './Text/InputAdornments'
+import InputMasking from './Text/InputMasking'
 
 function App() {
   return (
     <div className="App">
-      < InputAdornments />
+      < InputMasking />
     </div>
   );
 }
