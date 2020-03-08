@@ -23,6 +23,7 @@ export default function ControllingInputWithState() {
     newInputs[index] = { ...inputs[index], value };
 
     setInputs(newInputs);
+    console.log(newInputs)
   };
 
   return (

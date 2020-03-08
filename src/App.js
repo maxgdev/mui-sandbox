@@ -1,10 +1,10 @@
 import React from 'react';
-import ControllingInputWithState from './Text/ControllingInputWithState'
+import PlaceholderAndHelperText from './Text/PlaceholderAndHelperText'
 
 function App() {
   return (
     <div className="App">
-      <ControllingInputWithState />
+      <PlaceholderAndHelperText />
     </div>
   );
 }
