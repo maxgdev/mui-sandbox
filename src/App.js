@@ -1,18 +1,10 @@
 import React from 'react';
-import ThemedIcons from './Icons/ThemedIcons'
+import InstallingMoreIcons from './Icons/InstallingMoreIcons'
 
 function App() {
   return (
     <div className="App">
-      < ThemedIcons theme='Filled'/>
-      <br />
-      < ThemedIcons theme='Outlined'/>
-      <br />
-      < ThemedIcons theme='Rounded'/>
-      <br />
-      < ThemedIcons theme='TwoTone'/>
-      <br />
-      < ThemedIcons theme='Sharp'/>
+        < InstallingMoreIcons />
     </div>
   );
 }
