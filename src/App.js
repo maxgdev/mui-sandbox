@@ -4,7 +4,7 @@ import IconButtons from './Buttons/IconButtons';
 function App() {
   return (
     <div className="App">
-      <IconButtons />
+      <IconButtons iconColor='secondary'/>
     </div>
   );
 }
