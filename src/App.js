@@ -1,10 +1,10 @@
 import React from 'react';
-import PasswordFields from './Text/PasswordFields'
+import MultilineInput from './Text/MultilineInput'
 
 function App() {
   return (
     <div className="App">
-      < PasswordFields />
+      < MultilineInput />
     </div>
   );
 }
