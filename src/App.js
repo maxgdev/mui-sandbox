@@ -1,9 +1,9 @@
 import React from 'react';
-import WrappingText from './Typography/WrappingText'
+import UsingDatePickers from './Pickers/UsingDatePickers'
 function App() {
   return (
     <div className="App">
-      < WrappingText />
+        < UsingDatePickers />
     </div>
   );
 }
