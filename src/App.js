@@ -1,10 +1,10 @@
 import React from 'react';
-import CombiningDateAndTimeComponents from './Pickers/CombiningDateAndTimeComponents'
+import IntegratingOtherDateAndTimePackages from './Pickers/IntegratingOtherDateAndTimePackages'
 
 function App() {
   return (
     <div className="App">
-        < CombiningDateAndTimeComponents />
+        < IntegratingOtherDateAndTimePackages />
     </div>
   );
 }
