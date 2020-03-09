@@ -1,11 +1,9 @@
 import React from 'react';
-import AligningText from './Typography/AligningText'
-
+import WrappingText from './Typography/WrappingText'
 function App() {
   return (
     <div className="App">
-      < AligningText verticalAlign='center' horizontalAlign='center'/>
-      < AligningText verticalAlign='flex-end' horizontalAlign='flex-end'/>
+      < WrappingText />
     </div>
   );
 }
