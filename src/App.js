@@ -1,9 +1,9 @@
 import React from 'react';
-import MenuScrollingOptions from './Menus/MenuScrollingOptions'
+import UsingMenuTransitions from './Menus/UsingMenuTransitions'
 function App() {
   return (
     <div className="App">
-      < MenuScrollingOptions />
+      < UsingMenuTransitions />
     </div>
   );
 }
