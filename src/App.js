@@ -1,9 +1,9 @@
 import React from 'react';
-import UsingDatePickers from './Pickers/UsingDatePickers'
+import UsingTimePickers from './Pickers/UsingTimePickers'
 function App() {
   return (
     <div className="App">
-        < UsingDatePickers />
+        < UsingTimePickers />
     </div>
   );
 }
