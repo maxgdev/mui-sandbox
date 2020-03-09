@@ -162,6 +162,17 @@ Aligning text
 
 Wrapping text
 
+## Icons [18]
+Coloring icons
+
+Scaling icons
+
+Dynamically loading icons
+
+themed icons
+
+Inatalling more icons
+
 ## Themes [19]
 Palette
 
