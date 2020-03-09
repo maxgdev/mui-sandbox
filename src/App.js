@@ -1,9 +1,12 @@
 import React from 'react';
-import UsingMenuTransitions from './Menus/UsingMenuTransitions'
+import { BrowserRouter } from 'react-router-dom'
+import CustomizingMenuItems from './Menus/CustomizingMenuItems'
 function App() {
   return (
     <div className="App">
-      < UsingMenuTransitions />
+      <BrowserRouter>
+      < CustomizingMenuItems />
+      </BrowserRouter>
     </div>
   );
 }
