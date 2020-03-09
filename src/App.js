@@ -1,9 +1,9 @@
 import React from 'react';
-import StandaloneChipInput from './Autocomplete/StandaloneChipInput'
+import ComposingMenusWithState from './Menus/ComposingMenusWithState'
 function App() {
   return (
     <div className="App">
-      < StandaloneChipInput />
+      < ComposingMenusWithState />
     </div>
   );
 }
