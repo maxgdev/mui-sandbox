@@ -153,6 +153,14 @@ Combining date and time components
 
 Integrating other/external data and time modules ??
 
+## Typography [17]
+Types of typography
+
+using theme colors
+
+Aligning text
+
+Wrapping text
 
 ## Themes [19]
 Palette
