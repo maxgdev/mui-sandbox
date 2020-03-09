@@ -1,9 +1,9 @@
 import React from 'react';
-import SelectingAutocompleteSuggestions from './Autocomplete/SelectingAutocompleteSuggestions'
+import APIDrivenAutocomplete from './Autocomplete/APIDrivenAutocomplete'
 function App() {
   return (
     <div className="App">
-      < SelectingAutocompleteSuggestions />
+      < APIDrivenAutocomplete />
     </div>
   );
 }
