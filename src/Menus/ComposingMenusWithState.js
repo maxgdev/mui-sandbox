@@ -33,6 +33,13 @@ const MyMenu = ({ items, onClose, anchorEl }) => (
 export default function ComposingMenusWithState() {
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = useState(null);
+  const onOpen = e => {
+    setAnchorEl(e.currentTarget);
+  };
+
+  const onClose = () => {
+    setAnchorEl(null);
+  };
   const [items, setItems] = useState([
     { name: 'Enable Fourth' },
     { name: 'Second', onClick: onClose },
@@ -60,13 +67,13 @@ export default function ComposingMenusWithState() {
     setItems(newItems);
   });
 
-  const onOpen = e => {
-    setAnchorEl(e.currentTarget);
-  };
+//   const onOpen = e => {
+//     setAnchorEl(e.currentTarget);
+//   };
 
-  const onClose = () => {
-    setAnchorEl(null);
-  };
+//   const onClose = () => {
+//     setAnchorEl(null);
+//   };
 
   return (
     <Fragment>

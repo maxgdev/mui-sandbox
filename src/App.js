@@ -1,9 +1,9 @@
 import React from 'react';
-import ComposingMenusWithState from './Menus/ComposingMenusWithState'
+import MenuScrollingOptions from './Menus/MenuScrollingOptions'
 function App() {
   return (
     <div className="App">
-      < ComposingMenusWithState />
+      < MenuScrollingOptions />
     </div>
   );
 }
