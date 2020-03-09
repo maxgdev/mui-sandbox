@@ -1,9 +1,9 @@
 import React from 'react';
-import APIDrivenAutocomplete from './Autocomplete/APIDrivenAutocomplete'
+import HighlightingSearchResults from './Autocomplete/HighlightingSearchResults'
 function App() {
   return (
     <div className="App">
-      < APIDrivenAutocomplete />
+      < HighlightingSearchResults />
     </div>
   );
 }
