@@ -1,13 +1,11 @@
 import React from 'react';
-import UsingThemeColors from './Typography/UsingThemeColors'
+import AligningText from './Typography/AligningText'
 
 function App() {
   return (
     <div className="App">
-        < UsingThemeColors color='primary'/>
-        < UsingThemeColors color='secondary'/>
-        < UsingThemeColors color='error'/>
-        < UsingThemeColors color='textSecondary'/>
+      < AligningText verticalAlign='center' horizontalAlign='center'/>
+      < AligningText verticalAlign='flex-end' horizontalAlign='flex-end'/>
     </div>
   );
 }
