@@ -1,9 +1,9 @@
 import React from 'react';
-import HighlightingSearchResults from './Autocomplete/HighlightingSearchResults'
+import StandaloneChipInput from './Autocomplete/StandaloneChipInput'
 function App() {
   return (
     <div className="App">
-      < HighlightingSearchResults />
+      < StandaloneChipInput />
     </div>
   );
 }
