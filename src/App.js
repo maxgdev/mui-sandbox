@@ -1,10 +1,13 @@
 import React from 'react';
-import TypesOfTypography from './Typography/TypesOfTypography'
+import UsingThemeColors from './Typography/UsingThemeColors'
 
 function App() {
   return (
     <div className="App">
-        < TypesOfTypography />
+        < UsingThemeColors color='primary'/>
+        < UsingThemeColors color='secondary'/>
+        < UsingThemeColors color='error'/>
+        < UsingThemeColors color='textSecondary'/>
     </div>
   );
 }
