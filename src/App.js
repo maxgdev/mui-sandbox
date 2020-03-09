@@ -1,9 +1,10 @@
 import React from 'react';
-import SettingInitialDateAndTimeValues from './Pickers/SettingInitialDateAndTimeValues'
+import CombiningDateAndTimeComponents from './Pickers/CombiningDateAndTimeComponents'
+
 function App() {
   return (
     <div className="App">
-        < SettingInitialDateAndTimeValues />
+        < CombiningDateAndTimeComponents />
     </div>
   );
 }
