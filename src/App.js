@@ -1,10 +1,10 @@
 import React from 'react';
-import InstallingMoreIcons from './Icons/InstallingMoreIcons'
+import TypesOfTypography from './Typography/TypesOfTypography'
 
 function App() {
   return (
     <div className="App">
-        < InstallingMoreIcons />
+        < TypesOfTypography />
     </div>
   );
 }
