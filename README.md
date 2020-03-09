@@ -142,6 +142,17 @@ Input adornments
 
 Input Masking ?? (review)
 
+## Pickers [14]
+using date pickers
+
+Using time pickers
+
+Setting initial date and time values
+
+Combining date and time components
+
+Integrating other/external data and time modules ??
+
 
 ## Themes [19]
 Palette
