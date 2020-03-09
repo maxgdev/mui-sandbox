@@ -1,10 +1,9 @@
 import React from 'react';
-import BuildingAnAutocompleteComponent from './Autocomplete/BuildingAnAutocompleteComponent'
-
+import SelectingAutocompleteSuggestions from './Autocomplete/SelectingAutocompleteSuggestions'
 function App() {
   return (
     <div className="App">
-        < BuildingAnAutocompleteComponent />
+      < SelectingAutocompleteSuggestions />
     </div>
   );
 }
