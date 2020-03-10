@@ -153,6 +153,19 @@ Combining date and time components
 
 Integrating other/external data and time modules ??
 
+## Dialogs [15]
+Collecting forn input
+
+Confirming actions
+
+Displaying Alerts
+
+API integration
+
+Creating fullscreen dialogs
+
+Scrolling dialog content
+
 ## Typography [17]
 Types of typography
 
