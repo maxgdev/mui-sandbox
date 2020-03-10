@@ -166,6 +166,15 @@ Creating fullscreen dialogs
 
 Scrolling dialog content
 
+## Menus [16]
+Composing with state
+
+Menu scrolling options
+
+Using menu transitions
+
+Customizing menu items
+
 ## Typography [17]
 Types of typography
 
