@@ -142,6 +142,21 @@ Input adornments
 
 Input Masking ?? (review)
 
+## Selection [13]
+Abstracting checkbox groups
+
+Customizing checkbox items
+
+Abstracting radio buttons groups
+
+Radio button types
+
+Replacing checkboxes with switches
+
+Controlling select with state
+
+Selecting multiple items
+
 ## Pickers [14]
 using date pickers
 
