@@ -1,10 +1,10 @@
 import React from 'react';
-import ReplacingCheckboxesWithSwitches from './Selections/ReplacingCheckboxesWithSwitches'
+import ControllingSelectsWithState from './Selections/ControllingSelectsWithState'
 
 function App() {
   return (
     <div className="App">
-      < ReplacingCheckboxesWithSwitches />
+      < ControllingSelectsWithState />
     </div>
   );
 }
