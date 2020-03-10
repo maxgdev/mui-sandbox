@@ -1,10 +1,10 @@
 import React from 'react';
-import APIIntegration from './Dialogs/APIIntegration'
+import FullScreenDialogs from './Dialogs/FullScreenDialogs'
 
 function App() {
   return (
     <div className="App">
-      < APIIntegration />
+      < FullScreenDialogs />
     </div>
   );
 }
