@@ -1,12 +1,9 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom'
-import CustomizingMenuItems from './Menus/CustomizingMenuItems'
+import CollectingFormInput from './Dialogs/CollectingFormInput'
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-      < CustomizingMenuItems />
-      </BrowserRouter>
+      < CollectingFormInput />
     </div>
   );
 }
