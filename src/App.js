@@ -1,10 +1,10 @@
 import React from 'react';
-import FullScreenDialogs from './Dialogs/FullScreenDialogs'
+import ScrollingDialogContent from './Dialogs/ScrollingDialogContent'
 
 function App() {
   return (
     <div className="App">
-      < FullScreenDialogs />
+      < ScrollingDialogContent />
     </div>
   );
 }
