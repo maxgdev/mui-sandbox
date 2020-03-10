@@ -1,10 +1,10 @@
 import React from 'react';
-import AbstractingRadioButtonGroups from './Selections/AbstractingRadioButtonGroups'
+import RadioButtonTypes from './Selections/RadioButtonTypes'
 
 function App() {
   return (
     <div className="App">
-      < AbstractingRadioButtonGroups />
+      < RadioButtonTypes />
     </div>
   );
 }
