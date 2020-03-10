@@ -1,10 +1,10 @@
 import React from 'react';
-import ControllingSelectsWithState from './Selections/ControllingSelectsWithState'
+import SelectingMultipleItems from './Selections/SelectingMultipleItems'
 
 function App() {
   return (
     <div className="App">
-      < ControllingSelectsWithState />
+      < SelectingMultipleItems />
     </div>
   );
 }
