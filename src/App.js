@@ -1,9 +1,9 @@
 import React from 'react';
-import CollectingFormInput from './Dialogs/CollectingFormInput'
+import ConfirmingActions from './Dialogs/ConfirmingActions'
 function App() {
   return (
     <div className="App">
-      < CollectingFormInput />
+      < ConfirmingActions />
     </div>
   );
 }
