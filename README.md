@@ -142,6 +142,17 @@ Input adornments
 
 Input Masking ?? (review)
 
+## Autocomplete [12]
+Building an Autocomplete component
+
+Selecting autocomplete suggestions
+
+API-driven Autocomplete
+
+Highlighting search results
+
+Standalone chip input
+
 ## Selection [13]
 Abstracting checkbox groups
 
