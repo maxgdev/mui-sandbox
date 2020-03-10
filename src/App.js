@@ -1,10 +1,10 @@
 import React from 'react';
-import DisplayingAlerts from './Dialogs/DisplayingAlerts'
+import APIIntegration from './Dialogs/APIIntegration'
 
 function App() {
   return (
     <div className="App">
-      < DisplayingAlerts />
+      < APIIntegration />
     </div>
   );
 }
