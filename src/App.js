@@ -1,9 +1,10 @@
 import React from 'react';
-import ConfirmingActions from './Dialogs/ConfirmingActions'
+import DisplayingAlerts from './Dialogs/DisplayingAlerts'
+
 function App() {
   return (
     <div className="App">
-      < ConfirmingActions />
+      < DisplayingAlerts />
     </div>
   );
 }
