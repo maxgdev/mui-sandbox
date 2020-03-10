@@ -1,10 +1,10 @@
 import React from 'react';
-import RadioButtonTypes from './Selections/RadioButtonTypes'
+import ReplacingCheckboxesWithSwitches from './Selections/ReplacingCheckboxesWithSwitches'
 
 function App() {
   return (
     <div className="App">
-      < RadioButtonTypes />
+      < ReplacingCheckboxesWithSwitches />
     </div>
   );
 }
