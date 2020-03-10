@@ -1,10 +1,10 @@
 import React from 'react';
-import CustomizingCheckboxItems from './Selections/CustomizingCheckboxItems'
+import AbstractingRadioButtonGroups from './Selections/AbstractingRadioButtonGroups'
 
 function App() {
   return (
     <div className="App">
-      < CustomizingCheckboxItems />
+      < AbstractingRadioButtonGroups />
     </div>
   );
 }
