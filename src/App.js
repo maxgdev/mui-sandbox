@@ -1,10 +1,10 @@
 import React from 'react';
-import MultipleSelect from './Misc/MultipleSelect'
+import MultilineTextFields from './Misc/MultilineTextFields'
 
 function App() {
   return (
     <div className="App">
-      < MultipleSelect />
+      < MultilineTextFields />
     </div>
   );
 }
